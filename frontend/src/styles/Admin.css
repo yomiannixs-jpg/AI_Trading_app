@@ -1,0 +1,4 @@
+.admin-dashboard { animation: fadeIn .4s ease; }
+.admin-tabs { display:flex; gap:10px; margin: 0 0 24px; flex-wrap:wrap; }
+.tab-btn { border:1px solid #d9e0e7; background:#fff; padding:10px 16px; border-radius:8px; cursor:pointer; text-transform:capitalize; }
+.tab-btn.active { background:#2196f3; color:#fff; border-color:#2196f3; }

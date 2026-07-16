@@ -1,0 +1,112 @@
+/* Advanced Chart Styles */
+.advanced-chart-container {
+    background: #1a1a2e;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.chart-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #16213e;
+    border-bottom: 1px solid #2b2b43;
+}
+
+.toolbar-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.symbol-info h3 {
+    color: white;
+    margin: 0;
+}
+
+.timeframe-badge {
+    background: #2196F3;
+    color: white;
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.toolbar-right {
+    display: flex;
+    gap: 20px;
+}
+
+.drawing-tools {
+    display: flex;
+    gap: 5px;
+}
+
+.tool-btn {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #2b2b43;
+    background: transparent;
+    color: #d1d4dc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tool-btn:hover {
+    background: #2196F3;
+    border-color: #2196F3;
+    color: white;
+}
+
+.indicator-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.indicator-btn {
+    padding: 5px 12px;
+    background: transparent;
+    border: 1px solid #2b2b43;
+    color: #d1d4dc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+}
+
+.indicator-btn:hover {
+    background: #2b2b43;
+}
+
+.indicator-btn.active {
+    background: #2196F3;
+    border-color: #2196F3;
+    color: white;
+}
+
+.chart-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: #2b2b43;
+}
+
+.indicator-panel {
+    background: #16213e;
+    padding: 15px;
+}
+
+.indicator-panel h4 {
+    color: #d1d4dc;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.indicator-canvas {
+    height: 150px;
+}.chart-page-header{display:flex;justify-content:space-between;gap:20px;align-items:center}.chart-toolbar{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-bottom:16px}.chart-toolbar>div:first-child{display:flex;gap:7px;flex-wrap:wrap}.quote-line{display:flex;gap:12px;align-items:center;font-size:1.15rem}.market-workspace{display:grid;grid-template-columns:minmax(0,1fr) 310px;gap:20px}.chart-shell{padding:10px;background:#0f172a;overflow:hidden}.candlestick-chart{width:100%;min-height:470px}.loading-panel{height:470px;display:flex;align-items:center;justify-content:center;color:#cbd5e1}.signal-panel{height:max-content}.signal-action{display:inline-flex;padding:8px 18px;border-radius:999px;font-weight:800;margin:10px 0}.signal-action.buy{background:#dcfce7;color:#166534}.signal-action.sell{background:#fee2e2;color:#991b1b}.signal-action.hold{background:#fef3c7;color:#92400e}.confidence-meter{height:8px;background:#e2e8f0;border-radius:999px;overflow:hidden}.confidence-meter span{display:block;height:100%;background:#2196f3}.signal-panel dl>div{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid #e5e7eb}.signal-panel dt{color:#64748b}.signal-panel dd{font-weight:700}.signal-rationale{line-height:1.65}@media(max-width:1000px){.market-workspace{grid-template-columns:1fr}.chart-page-header,.chart-toolbar{align-items:flex-start;flex-direction:column}}
